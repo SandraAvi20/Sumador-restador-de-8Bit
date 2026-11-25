@@ -53,6 +53,6 @@ module tt_um_SandraAvi20_adder_sub_8b_2load (
     wire _unused = &{ena, uio_in[7:3], 1'b0};
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+  wire _unused_2 = &{ena, clk, rst_n, 1'b0};
 
 endmodule
